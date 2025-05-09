@@ -1,0 +1,13 @@
+model:
+  base_checkpoint: qwen3-0.6b
+  lora_rank: 4
+  epochs: 1
+
+data:
+  raw_path: data/raw
+  processed_path: data/processed
+
+training:
+  batch_size: 2
+  learning_rate: 3e-4
+
